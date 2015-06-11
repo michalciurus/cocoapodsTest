@@ -1,0 +1,6 @@
+framework module PULPulsate {
+  umbrella header "PULPulsate.h"
+
+  export *
+  module * { export * }
+}
