@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-  s.ios.vendored_frameworks = 'PulsateSDK/PULPulsate.framework'
-  s.resource = 'PulsateSDK/PULPulsate.bundle'
+  s.ios.vendored_frameworks = 'PulsateSDK/Pulsate.framework'
+  s.resource = 'PulsateSDK/Pulsate.bundle'
   s.frameworks = 'CoreData' , 'SystemConfiguration', 'CoreLocation'
   s.weak_framework = 'UIKit'
   s.library = 'z'
